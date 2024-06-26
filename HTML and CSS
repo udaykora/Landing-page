@@ -1,142 +1,152 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Welcome to Uday's World</title>
     <style>
-        /* CSS Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f1f1f1;
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 30px;
-        }
-        
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-        
-        .section {
-            margin-bottom: 40px;
-        }
-        
-        .section-heading {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
-        
-        .section-content {
-            font-size: 16px;
-        }
-        
-        .contact-form {
-            margin-top: 30px;
-            padding: 20px;
-            background-color: #fff;
-        }
-        
-        .form-input {
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .form-input label {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        
-        .form-input input[type="text"],
-        .form-input textarea {
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        
-        .form-input textarea {
-            resize: vertical;
-            height: 120px;
-        }
-        
-        .form-input button {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
+      /* CSS Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #338;
+        margin-bottom: 30px;
+      }
+
+      p {
+        color: #666;
+        line-height: 1.6;
+      }
+
+      .section {
+        margin-bottom: 40px;
+      }
+
+      .section-heading {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .section-content {
+        font-size: 16px;
+      }
+
+      .contact-form {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fff;
+      }
+
+      .form-input {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-input label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .form-input input[type="text"],
+      .form-input textarea {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .form-input textarea {
+        resize: vertical;
+        height: 120px;
+      }
+
+      .form-input button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Welcome to Uday's World</h1>
-        
-        <div class="section">
-            <h2 class="section-heading">About Uday:</h2>
-            <p class="section-content">
-                Uday is a passionate individual dedicated to sharing knowledge and making a positive impact on people's lives. 
-                With a diverse range of interests and expertise, Uday aims to inspire, educate, and empower individuals to reach their full potential.
-            </p>
-        </div>
-        
-        <div class="section">
-            <h2 class="section-heading">Discover the World of Uday:</h2>
-            
-            <p class="section-content">
-                <strong>1. Learning Resources:</strong> Explore a wealth of educational materials, including articles, tutorials, and videos, covering a wide range of topics.
-                From personal development to technology, Uday offers insights and guidance to help you grow.
-            </p>
-            
-            <p class="section-content">
-                <strong>2. Online Community:</strong> Join a vibrant community of like-minded individuals who share a passion for learning and personal growth.
-                Engage in discussions, ask questions, and connect with others on a similar journey.
-            </p>
-            
-            <p class="section-content">
-                <strong>3. Workshops and Events:</strong> Attend Uday's engaging workshops and events that are designed to foster personal and professional development.
-                Gain practical skills, expand your network, and immerse yourself in a supportive learning environment.
-            </p>
-            
-            <p class="section-content">
-                <strong>4. Newsletter Subscription:</strong> Stay up-to-date with the latest insights and resources by subscribing to Uday's newsletter.
-                Get exclusive content, event announcements, and valuable tips delivered straight to your inbox.
-            </p>
-        </div>
-        
-        <div class="section contact-form">
-            <h2 class="section-heading">Contact Uday:</h2>
-            <form>
-                <div class="form-input">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                
-                <div class="form-input">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-input">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+      <h1>Welcome to Uday's World</h1>
+
+      <div class="section">
+        <h2 class="section-heading">About Uday:</h2>
+        <p class="section-content">
+          Uday is a passionate individual dedicated to sharing knowledge and
+          making a positive impact on people's lives. With a diverse range of
+          interests and expertise, Uday aims to inspire, educate, and empower
+          individuals to reach their full potential.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2 class="section-heading">Discover the World of Uday:</h2>
+
+        <p class="section-content">
+          <strong>1. Learning Resources:</strong> Explore a wealth of
+          educational materials, including articles, tutorials, and videos,
+          covering a wide range of topics. From personal development to
+          technology, Uday offers insights and guidance to help you grow.
+        </p>
+
+        <p class="section-content">
+          <strong>2. Online Community:</strong> Join a vibrant community of
+          like-minded individuals who share a passion for learning and personal
+          growth. Engage in discussions, ask questions, and connect with others
+          on a similar journey.
+        </p>
+
+        <p class="section-content">
+          <strong>3. Workshops and Events:</strong> Attend Uday's engaging
+          workshops and events that are designed to foster personal and
+          professional development. Gain practical skills, expand your network,
+          and immerse yourself in a supportive learning environment.
+        </p>
+
+        <p class="section-content">
+          <strong>4. Newsletter Subscription:</strong> Stay up-to-date with the
+          latest insights and resources by subscribing to Uday's newsletter. Get
+          exclusive content, event announcements, and valuable tips delivered
+          straight to your inbox.
+        </p>
+      </div>
+
+      <div class="section contact-form">
+        <h2 class="section-heading">Contact Uday:</h2>
+        <form>
+          <div class="form-input">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-input">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-input">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
